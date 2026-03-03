@@ -1,5 +1,5 @@
 # zero-copy-vwap-engine
-
+```
 [Simulated WebSocket Feed]
         │  asyncio — catches raw ticks fast, never blocks
         ▼
@@ -14,3 +14,4 @@
           │
           ▼
     [Main Process — merge all results → final VWAP per ticker]
+```
